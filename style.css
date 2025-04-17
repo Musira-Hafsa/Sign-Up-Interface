@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;  
+}
+img{
+    filter: invert(1);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+header{
+  color: rgb(227, 224, 224);
+  margin: 25px;
+  font-size: 18px;
+}
+.container{
+    background: radial-gradient(circle at 120% -20%,#9995e3, #b0b3ef, #1e2d50, #090b2d, #0c0e4e,#060b34, #000104, #2b213f);
+   
+    width: 25%;
+    height: 94vh;
+    color: rgb(215, 215, 215);
+     background-color: #060b34; 
+}
+.form{
+   
+background: radial-gradient(circle at 120% -20%,#d8e3ea, #7784ab, #493f87, #0f0a3b, #1b0c4e,#060b34, #000104, #1c1725);
+    
+height: 58vh;
+width: 20%;
+position: absolute;
+top:24vh;
+border-radius: 30px;
+display: block;
+color: rgb(217, 216, 216);
+background-color: black;
+
+}
+h2{
+    margin:20px;
+    color: rgb(217, 216, 216);
+}
+
+button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.google-button {
+    background-color: black;
+    color: white;
+}
+
+.github-button {
+    background-color: black;
+    color: white;
+}
+
+.text {
+    margin-top: 150px;
+    color: gray;
+}
+
+.text a {
+    color: #aaa;
+    text-decoration: underline;
+}
